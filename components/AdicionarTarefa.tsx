@@ -53,3 +53,4 @@ const AdicionarTarefa: React.FC<AdicionarTarefaProps> = ({ onAdicionarTarefa }) 
   );
 };
 
+export default AdicionarTarefa; // Exporta o componente para ser usado em outras partes da aplicação

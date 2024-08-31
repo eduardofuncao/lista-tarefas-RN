@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NativeBaseProvider, View } from 'native-base';
-import AdicionarTarefa from "./src/components/AdicionarTarefa";
-import ListaTarefas from "./src/components/ListaTarefas";
+import AdicionarTarefa from "./components/AdicionarTarefa";
+import ListaTarefas from "./components/ListaTarefas";
 
 export default function App() {
   const [tarefas, setTarefas] = useState<string[]>([]);
